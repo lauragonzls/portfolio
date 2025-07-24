@@ -1,0 +1,12 @@
+/* Skills.css */
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+h1{
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #da5f96 ;
+}

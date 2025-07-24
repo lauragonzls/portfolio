@@ -1,0 +1,41 @@
+/* Home.css */
+
+.home-container {
+  padding: 20px;
+  top: 0;
+}
+.home-section {
+  display: flex;
+  flex-direction: column;
+  
+}
+.home-section h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #da5f96;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+li {
+  margin: 0 10px;
+}
+
+img{
+    height: 40px;
+    width: 40px;
+}
+a {
+  color: #da5f96 !important;
+  text-decoration: none;
+}
