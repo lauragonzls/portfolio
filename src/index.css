@@ -28,12 +28,13 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  background-color: blanchedalmond;
+  background-color:blanchedalmond;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: #f9f9f9;
 }
 
 @media (prefers-color-scheme: light) {
@@ -43,6 +44,7 @@ h1 {
   }
   a:hover {
     color: #747bff;
+    cursor: pointer;
   }
   button {
     background-color: #f9f9f9;

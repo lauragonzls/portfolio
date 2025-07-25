@@ -16,7 +16,7 @@ function Home() {
             </nav>
             <section className="home-section">
                 <h1>Hi there!</h1>
-                <p>I'm Laura, a passionate web developer!</p>
+                <p>I'm Laura, welcome to my page!</p>
 
             </section>
 
