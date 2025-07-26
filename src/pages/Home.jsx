@@ -3,7 +3,7 @@ import './Home.css';
 
 function Home() {
     return (
-        <div className="text-center p-5">
+        <div className="p-5">
             <nav>
                 <div>
                     <img src="Logo.png" alt="Logo" className="logo" />
@@ -16,11 +16,18 @@ function Home() {
                 </ul>
             </nav>
             <section className="home-section">
-                <div>
+                <div className='text-container'>
                     <div className="greeting">👋 Hey there!</div>
                     <h2>Laura Gonzalez </h2>
                     <h4>Fullstack developer</h4>
-                    <button className='cv-button'>CV</button>
+                    <div className="social-icons">
+                        <button className="btn" onClick={() => window.open('https://www.linkedin.com/in/lauragonzalezsl/')}>
+                            <img src="linkedin.png" alt="LinkedIn" />
+                        </button>
+                        <button className="btn" onClick={() => window.open('https://github.com/lauragonzls')}>
+                            <img src="github.png" alt="GitHub" />
+                        </button>
+                    </div>
                 </div>
                 <div>
                     <img src="Profile.png" alt="Laura" className="profile-image" />
