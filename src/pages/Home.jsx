@@ -51,6 +51,10 @@ function Home() {
                 <h3 className='c-title'>Skills</h3>
                 <Skills />
             </section>
+            <section className='gap-3'>
+                <h3 className='c-title'>Contact</h3>
+                <Contact />
+            </section>
 
         </div>
     );
@@ -77,6 +81,22 @@ function Skills() {
 
         </div>
     );
+}
+function Contact() {
+    return (
+        <div>
+              <p>If you want to get in touch, feel free to reach out via email or connect with me on LinkedIn.</p>
+            <div className="gap-2">
+               {/* Forms to contact*/}
+              <form action="" className='contact-form'>
+                <input type="text" placeholder="Your Name" required />
+                <input type="email" placeholder="Your Email" required />
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" className='btn-submit'>Send</button>
+              </form>
+           </div>
+       </div>
+   );
 }
 
 export default Home;
